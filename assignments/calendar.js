@@ -1,6 +1,7 @@
 // modify this script to populate the month select you create in the HTML page from an array of month names
 // you can use either a for loop or an array.map to populate the select. remember that while arrays start with 
 // zero, month numbers go from 1-12
+
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 var wrapper = document.getElementById('wrapper')
 var select = document.createElement('select')
@@ -63,3 +64,5 @@ while ( y < remainder) {
 }
     
 }
+
+
