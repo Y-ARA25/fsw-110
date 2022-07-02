@@ -1,7 +1,7 @@
 for (let i = 0; i < 10 ; i++){
     var newH1 = document.createElement('h1')
     newH1.textContent = 'Hello World'
-    document.body.appendChild(newH1)
+    document.body.append(newH1)
     newH1.style.fontFamily = "Impact, Charcoal, sans-serif"; 
 }
 
